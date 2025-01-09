@@ -1,0 +1,14 @@
+.auth{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;  
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.h1Auth{
+    font-size: 3rem;
+}

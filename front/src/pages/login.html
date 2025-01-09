@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../styles/login.css">
+</head>
+<body>
+    <canvas id="planoDeFundo"></canvas>
+    <form id="loginForm" name="loginForm" action="login.html">
+        <h1>Login</h1>
+        <div class="grupo">
+            <input type="Email" id="Email" placeholder="Email" required>
+        </div>
+        <div class="grupo">
+            <input type="password" id="Senha" placeholder="Senha" required>
+        </div>
+        <button id="botãoLogin">Login</button>
+    </form>
+    <ul id="loginStatus"></ul>
+</body>
+<script type="module" src="../scripts/loginSubmit.js"></script>   
+</html>
